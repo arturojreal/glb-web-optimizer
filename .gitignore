@@ -1,0 +1,6 @@
+node_modules/
+preview/
+out/
+test/tmp/
+*_raw.glb
+.DS_Store

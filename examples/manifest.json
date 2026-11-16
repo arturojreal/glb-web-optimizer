@@ -1,0 +1,11 @@
+{
+  "about": "One entry per model. source is relative to --src, file is written under --out. triangles, texture and simplify override the command line for that model; skip leaves it out of the batch.",
+  "assets": [
+    { "label": "drone", "source": "meshes/drone.glb", "file": "drone.glb" },
+    { "label": "van", "source": "meshes/van.glb", "file": "van.glb", "triangles": 15000 },
+    { "label": "walkie", "source": "meshes/walkie.glb", "file": "walkie.glb", "texture": 512 },
+    { "label": "headphones", "source": "meshes/headphones.glb", "file": "headphones.glb", "texture": 512 },
+    { "label": "character", "source": "character_raw.glb", "file": "character.glb", "simplify": false, "texture": 512 },
+    { "label": "old_take", "source": "meshes/old_take.glb", "file": "old_take.glb", "skip": "kept for reference" }
+  ]
+}

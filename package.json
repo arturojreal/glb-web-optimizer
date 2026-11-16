@@ -1,0 +1,30 @@
+{
+  "name": "glb-web-optimizer",
+  "version": "1.0.0",
+  "description": "Shrink AI-generated and game 3D models (glTF/GLB) for the web: simplify, WebP textures, meshopt compression, and a Blender script that bakes Mixamo animations into one GLB.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Arturo J. Real",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturojreal/glb-web-optimizer.git"
+  },
+  "keywords": ["gltf", "glb", "meshopt", "webp", "three.js", "mixamo", "blender", "tripo", "rodin"],
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "glb-optimize": "optimize.mjs",
+    "glb-preview": "preview.mjs"
+  },
+  "scripts": {
+    "test": "node test/run.mjs"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "meshoptimizer": "1.3.0",
+    "sharp": "0.35.5"
+  }
+}
