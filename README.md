@@ -1,4 +1,4 @@
-﻿# glb-web-optimizer
+# glb-web-optimizer
 
 Make AI-generated and game 3D models small enough for a web page.
 
